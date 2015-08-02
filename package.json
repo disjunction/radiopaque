@@ -1,6 +1,16 @@
 {
     "name": "radiopaque",
+    "version": "1.0.0",
+    "description": "event dispatcher, event scheduler and a scheduling queue",
     "dependencies": {
         "jasmine-node": "*"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "author": {
+        "name": "Konstantin Pogorelov",
+        "email": "or@pluseq.com",
+        "url": "http://pluseq.com/"
     }
 }
