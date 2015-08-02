@@ -1,0 +1,6 @@
+{
+    "name": "radiopaque",
+    "dependencies": {
+        "jasmine-node": "*"
+    }
+}
