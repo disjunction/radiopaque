@@ -1,13 +1,10 @@
 {
     "name": "radiopaque",
-    "main": "src/radiopaque.js",
+    "main": "dist/radiopaque.global.qjs",
     "version": "1.0.0",
     "description": "event dispatcher, event scheduler and a scheduling queue",
     "devDependencies": {
         "jasmine-node": "*"
-    },
-    "engines": {
-        "node": ">=0.10.0"
     },
     "author": {
         "name": "Konstantin Pogorelov",
