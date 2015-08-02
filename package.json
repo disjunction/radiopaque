@@ -12,5 +12,9 @@
         "name": "Konstantin Pogorelov",
         "email": "or@pluseq.com",
         "url": "http://pluseq.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:disjunction/radiopaque.git"
     }
 }
