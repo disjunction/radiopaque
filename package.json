@@ -4,7 +4,8 @@
     "version": "1.0.0",
     "description": "event dispatcher, event scheduler and a scheduling queue",
     "devDependencies": {
-        "jasmine-node": "*"
+        "jasmine-node": "*",
+        "uglifyjs": "*"
     },
     "engines": {
         "node": ">=0.10.0"

@@ -311,4 +311,12 @@ PreparedBroadcast.prototype.executeIn = function() {
     return this.executeAt.apply(this, arguments);
 };
 
+/**
+ * fluent factory-medthod: require('radiopaque').create().audience('some')...
+ * @return {Radiopaque}
+ */
+Radiopaque.create = function() {
+    return new Radiopaque();
+};
+
 module.exports = Radiopaque;
