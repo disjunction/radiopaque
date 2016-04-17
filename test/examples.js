@@ -109,4 +109,3 @@ function example5() {
     console.log(r.fetchAll()); // returns ["message2", "message3"]
 }
 
-example5();

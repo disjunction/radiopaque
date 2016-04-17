@@ -1,3 +1,5 @@
+[![build status](https://api.travis-ci.org/disjunction/radiopaque.png)](https://travis-ci.org/disjunction/radiopaque)
+
 Radiopoaque is a dependency-free combination of event dispatcher, event scheduler and a scheduling queue
 in one object without persistence. It is inspired by fluent interface of radio.js
 
@@ -37,7 +39,7 @@ It cannot be used if the same event is fired during processing of a template
 (e.g. if mouseMove firing another mouseMove inside of mySubscriber)
 
 The **prepare()** method takes a filler closure as a parameter,
-which fills the template event with arbitrary arguments. A second optional parameter specifies the initial template. By default it's just = {}
+which fills the template event with arbitrary arguments. A second optional parameter specifies the initial template. By default it's just `= {}`
 
 ```javascript
 var r = new Radiopaque();

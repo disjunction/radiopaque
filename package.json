@@ -1,23 +1,28 @@
 {
-    "name": "radiopaque",
-    "main": "src/radiopaque.js",
-    "version": "1.0.0",
-    "description": "event dispatcher, event scheduler and a scheduling queue",
-    "devDependencies": {
-        "jasmine-node": "*",
-        "uglifyjs": "*"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "author": {
-        "name": "Konstantin Pogorelov",
-        "email": "or@pluseq.com",
-        "url": "http://pluseq.com/"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:disjunction/radiopaque.git"
-    },
-    "license": "MIT"
+  "name": "radiopaque",
+  "main": "src/radiopaque.js",
+  "version": "1.0.0",
+  "description": "event dispatcher, event scheduler and a scheduling queue",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jasme/run.js"
+  },
+  "keywords": [
+    "events",
+    "event dispatcher",
+    "scheduling",
+    "queue"
+  ],
+  "author": "Konstantin Pogorelov <or@pluseq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/disjunction/radiopaque.git"
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "jasme": "^4.1.1",
+    "uglifyjs": "^2.4.10"
+  }
 }

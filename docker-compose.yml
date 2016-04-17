@@ -1,0 +1,9 @@
+# just a handy way to try out different node versions
+
+radiopaque:
+    image: node:0-slim
+    volumes:
+        - ./src:/app/src
+        - ./test:/app/test
+        - ./package.json:/app/package.json
+    command: sleep 100000000
