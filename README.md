@@ -8,11 +8,18 @@ but provides a very simple and fast implementation, optimized for v8.
 
 Radiopaque was initially developed as helper for "dispace" - online multiplayer JS game.
 
+Install as usual:
+```
+npm install radiopaque
+```
+
 ## Examples
 
 ### Event Dispatcher
 
 ```javascript
+var Radiopaque = require("radiopaque");
+
 function mySubscriber(data) {
     console.log(data.x, data.y);
 }
